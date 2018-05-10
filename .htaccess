@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !qrcode/public/
+RewriteRule ^(.*)$ /qrcode/public/$1 [L]
